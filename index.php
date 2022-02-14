@@ -13,8 +13,8 @@
 <a href="#opg1" class="card">
         <div class="cardImg"></div>
         <div class="cardText">
-            <h2>Welcome</h2>
-            <p>En mer brukervennlig Kuben nettside for Kuben</p>
+
+            <p>Book here</p>
         </div>
         <div class="cardcolor"></div>
       </a>

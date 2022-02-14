@@ -23,7 +23,9 @@
 //Get access to the database
 require('database.php')
 
-//
+//Insert values into database
+/*INSERT INTO booking (Name, Date, Gmail, Time)
+VALUES () ;*/
 
 
 ?>

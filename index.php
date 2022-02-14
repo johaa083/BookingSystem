@@ -9,7 +9,7 @@
 </head>
 <body class="bodys1">
 <h1>Welcome</h1>
-<div class="homeBackground">
+-<div class="homeBackground">
 <div class="cardMenu">
 <a href="#opg1" class="card">
         <div class="cardImg"></div>

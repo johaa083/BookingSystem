@@ -9,7 +9,14 @@
 </head>
 <body class="bodys1">
 <h1>Welcome</h1>
--<div class="homeBackground">
+-<div class="homeBackground"></div>
+
+<button name="simple_button" type="button">
+CUMSS
+
+</button>
+
+
 <div class="cardMenu">
 <a href="#opg1" class="card">
         <div class="cardImg"></div>
@@ -19,7 +26,10 @@
         </div>
         <div class="cardcolor"></div>
       </a>
+
 </div>
+
+
 
 <?php 
 //Get access to the database

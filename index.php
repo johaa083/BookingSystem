@@ -1,8 +1,3 @@
-<?php 
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,8 +18,15 @@
         </div>
         <div class="cardcolor"></div>
       </a>
-    <?php
+      <?php 
 
-    ?>
+//Get access to the database
+require('database.php')
+
+//
+
+
+?>
+
 </body>
-</html>
+</html> 

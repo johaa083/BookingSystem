@@ -9,21 +9,9 @@
 </head>
 <body class="bodys1">
 <h1>Welcome</h1>
-<div class="homeBackground">
-<div class="cardMenu">
-<a href="#opg1" class="card">
-        <div class="cardImg"></div>
-        <div class="cardText">
+<div class="homeBackground"></div>
 
-            <p>Book here</p>
-        </div>
-        <div class="cardcolor"></div>
-      </a>
-</div>
-
-
-      <?php 
-
+<?php 
 //Get access to the database
 require('database.php');
 

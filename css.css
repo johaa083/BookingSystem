@@ -1,3 +1,32 @@
+/* setter bakgrunnen et lag lenger bak med z-index,
+    slik at navbaren fortsatt fungerer */
+
+.homeBackground {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+
+/* lagde et pseudo element slik at jeg kunne styre
+         opacity på bilde uten å påvirke all teksten og logoen 
+         viktig at psuedo elementet er like stort som den originale*/
+
+.homeBackground::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url("");
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.3;
+    margin-top: -500px;
+}
+
 #opg1 {
     top: 1800px;
     width: 100%;

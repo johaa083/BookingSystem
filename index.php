@@ -9,7 +9,7 @@
 </head>
 <body class="bodys1">
 <h1>Welcome</h1>
--<div class="homeBackground">
+<div class="homeBackground">
 <div class="cardMenu">
 <a href="#opg1" class="card">
         <div class="cardImg"></div>
@@ -34,7 +34,7 @@ if (isset($_REQUEST['name'])) {
     $email    = stripslashes($_REQUEST['email']);
     $email    = mysqli_real_escape_string($con, $email);
     $create_datetime = date("Y-m-d H:i:s");
-    $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='" . ($email) . "' OR date=";
+    $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='" . ($email) . "' OR date=(Y-m-d H:i:s)";
     $result = mysqli_query($con, $query2) or die;
     function mysql_num_rows(){
     }  

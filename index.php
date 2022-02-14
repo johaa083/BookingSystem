@@ -36,7 +36,7 @@ if (isset($_REQUEST['name'])) {
     $email    = stripslashes($_REQUEST['email']);
     $email    = mysqli_real_escape_string($con, $email);
     $create_datetime = date("Y-m-d H:i:s");
-    $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='" . ($email) . "' OR date";
+    $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='" . ($email) . "' OR date=";
     $result = mysqli_query($con, $query2) or die;
     function mysql_num_rows(){
     }  

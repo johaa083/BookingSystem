@@ -10,6 +10,7 @@
 <body class="bodys1">
 <h1>Welcome</h1>
 <div class="homeBackground">
+<div class="cardMenu">
 <a href="#opg1" class="card">
         <div class="cardImg"></div>
         <div class="cardText">
@@ -18,6 +19,9 @@
         </div>
         <div class="cardcolor"></div>
       </a>
+</div>
+
+
       <?php 
 
 //Get access to the database

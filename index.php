@@ -97,7 +97,6 @@
     <center>
         <?php
   require('database.php');
-        }
 
         $name =  $_REQUEST['name'];
         $date = $_REQUEST['date'];

@@ -9,7 +9,8 @@
     <title>BOOKING</title>
 </head>
 
-<body class="bodys1">
+<body>
+<script src="JavaScript.js"></script>
     <h1>Welcome</h1>
     <div class="homeBackground"></div>
 

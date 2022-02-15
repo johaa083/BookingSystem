@@ -68,13 +68,8 @@ $conn->close();
 
 
 ?>
-<h2>
-    <form class="form" action="" method="post">
-        <h1 class="login-title">Registration</h1>
         <input type="text" class="login-input" name="name" placeholder="Username" required />
         <input type="submit" name="submit" value="Register" class="login-button">
-    </form>
-</h2>
 <?php
 }
 ?>

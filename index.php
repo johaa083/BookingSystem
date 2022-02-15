@@ -27,13 +27,7 @@
     </a>
 
     <div id="opg1">
-       
-        <iframe class="oppdrag1K" src="../nettsider/index.html" width="90%"></iframe>
-        <div class="opg1text">
-            <h3>ussy</h3>
-            <p>
-            </p>
-        </div>
+
     </div>
 
 

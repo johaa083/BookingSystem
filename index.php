@@ -44,8 +44,7 @@
 
             <p>
                 <label for="time">Time:</label>
-                <input type="datetime-local" name="time" id="time" minDate="today" time_24hr=true minTime="8:45",
-                maxTime="16:00", required>
+                <input type="datetime-local" name="time" id="time" required>
             </p>
 
             <p>

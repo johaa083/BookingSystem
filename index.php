@@ -17,6 +17,15 @@
         CUMSS
     </button>
 
+    <a href="#opg1" class="card">
+        <div class="cardImg"></div>
+        <div class="cardText">
+            <h2>Oppdrag 1</h2>
+            <p>En mer brukervennlig Kuben nettside for Kuben</p>
+        </div>
+        <div class="cardcolor"></div>
+      </a>
+
     <button name="submit_button" type="submit" value="Submit">
         Submit
     </button>

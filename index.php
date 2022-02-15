@@ -87,7 +87,7 @@
         </p>
 
 <p>
-            <label for="emailAddress">Gmail Address:</label>
+            <label for="emailAddress">email Address:</label>
             <input type="text" name="email" id="emailAddress">
         </p>
 
@@ -106,19 +106,19 @@
 
         $name =  $_REQUEST['name'];
         $date = $_REQUEST['date'];
-        $gmail = $_REQUEST['gmail'];
+        $email = $_REQUEST['email'];
           
         // Performing insert query execution
         // here our table name is college
-        $sql = "INSERT INTO bookingsystem (name, date, gmail)
-                VALUES ('$name','$date','$gmail')";
+        $sql = "INSERT INTO bookingsystem (name, date, email)
+                VALUES ('$name','$date','$email')";
           
         if(mysqli_query($con, $sql)){
             echo "<h3>data stored in a database successfully." 
                 . " Please browse your localhost php my admin" 
                 . " to view the updated data</h3>"; 
   
-            echo nl2br("\n$name\n$date\n$gmail");
+            echo nl2br("\n$name\n$date\n$email");
         } 
           
         // Close connection

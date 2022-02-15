@@ -14,10 +14,9 @@
     <h1>Welcome</h1>
     <div class="homeBackground"></div>
 
-    <button>
+    <button onclick="topFunction()" id="myBtn" title="Go Down">
         help
-    </button>
-    <button onclick="topFunction()" id="myBtn" title="Go Down">Down</button>
+    </button>Down</button>
  <center>
         <h1>Storing Form data in Database</h1>
 

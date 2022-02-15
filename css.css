@@ -49,6 +49,9 @@
   grid-template-areas */
 
 .card {
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 20px 20px 20px;
     background-color: #808080;
     border-radius: 18px;
     text-align: center;

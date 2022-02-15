@@ -18,7 +18,7 @@
     </button>
 
     <a href="#opg1" class="card">
-        <div class="cardImg"></div>
+        <div class="cardImg"></div>     
         <div class="cardText">
             <h2>Oppdrag 1</h2>
             <p>En mer brukervennlig Kuben nettside for Kuben</p>
@@ -56,17 +56,17 @@
           
 <p>
             <label for="name">Name:</label>
-            <input type="text" name="name" id="name" required>
+            <input type="text" name="name" id="name">
         </p>
 
 <p>
             <label for="Date">Date:</label>
-            <input type="date" name="date" id="date" required>
+            <input type="date" name="date" id="date">
         </p>
 
 <p>
-            <label for="emailAddress">Email Address:</label>
-            <input type="text" name="email" id="emailAddress" required>
+            <label for="emailAddress">email Address:</label>
+            <input type="text" name="email" id="emailAddress">
         </p>
 
         <input type="submit" value="Submit">
@@ -88,7 +88,7 @@
           
         // Performing insert query execution
         // here our table name is college
-        $sql = "INSERT INTO booking (name, date, email)
+        $sql = "INSERT INTO bookingsystem (name, date, email)
                 VALUES ('$name','$date','$email')";
           
         if(mysqli_query($con, $sql)){
@@ -96,12 +96,8 @@
                 . " Please browse your localhost php my admin" 
                 . " to view the updated data</h3>"; 
   
-            echo nl2br("\n$name\n$date\n$email");
-        }
-        else{
-            echo "ERROR: Hush! Sorry $sql. " 
-                . mysqli_error($con);
-        }
+            echo ("\n$name\n$date\n$email");
+        } 
           
         // Close connection
         mysqli_close($con);

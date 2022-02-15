@@ -13,11 +13,8 @@
     <h1>Welcome</h1>
     <div class="homeBackground"></div>
 
-    <button class="button" name="simple_button" type="button">
-        CUMSS
-    </button>
-
-    <a href="#opg1" class="button"></a>
+    <button onclick="topFunction()" id="myBtn" title="Go Down">Down</button>
+    <a href="#opg1" class="card"></a>
 
     <div id="opg1">
 

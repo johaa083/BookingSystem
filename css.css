@@ -36,48 +36,4 @@ html {
     /* Add a dark-grey background on hover */
 }
 
-.cardMenu {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5em;
-    margin-left: 55em;
-}
-
-
-/* display grid så vi gjør card1 til et gridsystem. columns for
-  å bestemme bredden av korte og rows for å bestemme høyden for vært område
-  så bilde blir 210px høyt, textområdet blir 210px osv. vi navngir områdene med
-  grid-template-areas */
-
-.card {
-    display: grid;
-    grid-template-columns: 100px;
-    grid-template-rows: 20px 20px 20px;
-    background-color: #808080;
-    border-radius: 18px;
-    text-align: center;
-    transition: 0.5s ease;
-    margin: 3em;
-    color: white;
-    text-decoration: none;
-}
-
-.button:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
-#opg1 {
-    top: 1800px;
-    width: 100%;
-    height: 10%;
-    position: absolute;
-}
-
-button {
-    background-color: darkgray;
-    font-size: 18px;
-    font-family: monospace;
-}
-
 #time {}

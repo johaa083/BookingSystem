@@ -67,23 +67,6 @@
     cursor: pointer;
 }
 
-.cardImg {
-    grid-area: image;
-    background-size: cover;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
-}
-
-.cardText {
-    grid-area: text;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: lighter;
-}
-
-.cardText h2 {
-    font-family: "Rajdhani", sans-serif;
-}
-
 .cardcolor {
     grid-area: color;
     background-color: #222222;

@@ -26,6 +26,40 @@
         <div class="cardcolor"></div>
       </a>
 
+      <div id="opg1">
+<!--menybar start-->
+<header>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="../index.html">
+            <img src="../PICS/WOLF.png" alt="oppdrag1" height="150px"></a>
+        </div>
+        <nav>
+          <a href="../HTML/About Me.html">About</a> 
+                <a href="../HTML/Nettverk.html">Nettverk</a>
+                <a class="active" href="../HTML/Porte.html">Portfolio</a> 
+                <a href="../HTML/Tags.html">Html Tags</a> 
+                <a href="../HTML/design.html">Design manual</a>
+                <a href="../HTML/Valgfri.html">Content</a>
+        </nav>
+  </div>
+  </header>  
+<!--menybar slutt-->
+
+<iframe class="oppdrag1K" src="../nettsider/index.html" width="90%"></iframe>
+<div class="opg1text">
+<h3>Oppdrag 1</h3>
+<p>Det første oppdraget som jeg hadde her på Kuben var å lage en mer brukervennlig Kuben nettside.
+    jeg prøvde å lage en veldig lett nettside som er enkel å navigere seg rundt på.
+    jeg føler jeg klarte dette oppdraget ganske godt ved hjelp av en venn av meg som går i 10. trinn.
+    Men jeg løste oppgaven med å tenke på hvordan nettsiden kunne være enklest å titte på, fordi jeg og noen andre synes det var vannskelig.
+</p>
+</div>
+</div>
+
+
+
+
     <button name="submit_button" type="submit" value="Submit">
         Submit
     </button>

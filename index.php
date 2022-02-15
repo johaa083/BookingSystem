@@ -46,8 +46,7 @@
 
             <input type="submit" value="Submit">
         </form>
-    </center>
-    <center>
+    
         <?php
         require('database.php');
 

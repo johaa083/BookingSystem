@@ -59,7 +59,7 @@
             </p>
             <p>
                 <label for="time">Time:</label>
-                <input type="datetime" name="time" id="time" required>
+                <input type="datetime-local" name="time" id="time" required>
             </p>
 
             <input type="submit" value="Submit">

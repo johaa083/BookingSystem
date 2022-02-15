@@ -48,18 +48,6 @@
 </div>
 
 
-
-
-    <button name="submit_button" type="submit" value="Submit">
-        Submit
-    </button>
-
-    <button name="reset_button" type="reset" value="Reset">
-        Reset
-    </button>
-
-
-    
     <center>
     <h1>Storing Form data in Database</h1>
 

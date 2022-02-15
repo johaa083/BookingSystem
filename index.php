@@ -109,7 +109,8 @@
     <?php
     }
     ?>
-    <center id=1234>
+    <div class="testing">
+    <center>
     <h1>Storing Form data in Database</h1>
 
     <form action="index.php" method="post">
@@ -133,7 +134,7 @@
         <input type="submit" value="Submit">
     </form>
 </center>
-    <center id=1234>
+    <center>
         <?php
   require('database.php');
           
@@ -169,6 +170,7 @@
         mysqli_close($conn);
         ?>
     </center>
+    </div>
 
 
 </body>

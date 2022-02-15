@@ -116,59 +116,26 @@
           
           
 <p>
-            <label for="firstName">First Name:</label>
-            <input type="text" name="first_name" id="firstName">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
         </p>
 
-
-
-          
-          
 <p>
-            <label for="lastName">Last Name:</label>
-            <input type="text" name="last_name" id="lastName">
+            <label for="Date">Date:</label>
+            <input type="date" name="date" id="date">
         </p>
 
-
-
-          
-          
-<p>
-            <label for="Gender">Gender:</label>
-            <input type="text" name="gender" id="Gender">
-        </p>
-
-
-          
-          
-          
-<p>
-            <label for="Address">Address:</label>
-            <input type="text" name="address" id="Address">
-        </p>
-
-
-          
-          
-          
 <p>
             <label for="emailAddress">Email Address:</label>
             <input type="text" name="email" id="emailAddress">
         </p>
 
-
-          
         <input type="submit" value="Submit">
     </form>
 </center>
     <center>
         <?php
-  
-        // servername => localhost
-        // username => root
-        // password => empty
-        // database name => staff
-        $conn = mysqli_connect("localhost", "root", "", "staff");
+  require('database.php');
           
         // Check connection
         if($conn === false){
@@ -178,15 +145,13 @@
           
         // Taking all 5 values from the form data(input)
         $first_name =  $_REQUEST['first_name'];
-        $last_name = $_REQUEST['last_name'];
-        $gender =  $_REQUEST['gender'];
-        $address = $_REQUEST['address'];
+        $date = $_REQUEST['date'];
         $email = $_REQUEST['email'];
           
         // Performing insert query execution
         // here our table name is college
-        $sql = "INSERT INTO college  VALUES ('$first_name', 
-            '$last_name','$gender','$address','$email')";
+        $sql = "INSERT INTO bookingsystem 
+                VALUES ('$first_name','$date','$email')";
           
         if(mysqli_query($conn, $sql)){
             echo "<h3>data stored in a database successfully." 

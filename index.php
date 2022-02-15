@@ -100,7 +100,7 @@
           
         // Performing insert query execution
         // here our table name is college
-        $sql = "INSERT INTO bookingsystem (name, date, email)
+        $sql = "INSERT INTO booking (name, date, email)
                 VALUES ('$name','$date','$email')";
           
         if(mysqli_query($con, $sql)){

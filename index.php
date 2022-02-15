@@ -109,7 +109,6 @@
     <?php
     }
     ?>
-    <div class="testing">
     <center>
     <h1>Storing Form data in Database</h1>
 
@@ -170,7 +169,6 @@
         mysqli_close($conn);
         ?>
     </center>
-    </div>
 
 
 </body>

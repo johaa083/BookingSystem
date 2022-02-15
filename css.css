@@ -70,7 +70,6 @@
 
 .cardImg {
     grid-area: image;
-    background: url("./IMG/LEWIS.png");
     background-size: cover;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
@@ -104,8 +103,4 @@ button {
     background-color: darkgray;
     font-size: 18px;
     font-family: monospace;
-}
-
-.testing {
-    color: white;
 }

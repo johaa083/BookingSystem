@@ -48,6 +48,7 @@
     </div>
 
 
+<<<<<<< HEAD
 
 
     <button name="submit_button" type="submit" value="Submit">
@@ -60,6 +61,8 @@
 
 
 
+=======
+>>>>>>> 04f394205046987b316634e1eed02cee3001cf77
     <center>
         <h1>Storing Form data in Database</h1>
 

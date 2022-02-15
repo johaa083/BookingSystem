@@ -36,8 +36,8 @@
             </p>
 
             <p>
-                <label for="time">Time:</label>
-                <input type="datetime-local" name="time" id="time" required>
+                <label for="time">Date and Time:</label>
+                <input type="datetime-local" name="time" id="time" min="" required>
             </p>
 
             <p>

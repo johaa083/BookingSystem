@@ -109,7 +109,7 @@
     <?php
     }
     ?>
-    <center>
+    <center id=1234>
     <h1>Storing Form data in Database</h1>
 
     <form action="index.php" method="post">
@@ -133,7 +133,7 @@
         <input type="submit" value="Submit">
     </form>
 </center>
-    <center>
+    <center id=1234>
         <?php
   require('database.php');
           

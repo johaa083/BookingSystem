@@ -11,7 +11,7 @@
 
 <body class="bodys1">
     <h1>Welcome</h1>
-    -<div class="homeBackground"></div>
+    <div class="homeBackground"></div>
 
     <button class="button" name="simple_button" type="button">
         CUMSS
@@ -53,7 +53,7 @@
             </p>
             <p>
                 <label for="time">Time:</label>
-                <input type="datetime" name="time" id="time" required>
+                <input type="datetime-local" name="time" id="time" required>
             </p>
 
             <input type="submit" value="Submit">

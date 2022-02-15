@@ -37,7 +37,7 @@
 
             <p>
                 <label for="time">Time:</label>
-                <input type="datetime-local" name="time" id="time" required>
+                <input type="time" name="time" id="time" required>
             </p>
 
             <p>

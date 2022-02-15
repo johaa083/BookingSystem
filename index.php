@@ -18,7 +18,7 @@
     </button>
 
     <a href="#opg1" class="card">
-        <div class="cardImg"></div>
+        <div class="cardImg"></div>     
         <div class="cardText">
             <h2>Oppdrag 1</h2>
             <p>En mer brukervennlig Kuben nettside for Kuben</p>
@@ -48,21 +48,6 @@
     </div>
 
 
-<<<<<<< HEAD
-
-
-    <button name="submit_button" type="submit" value="Submit">
-        Submit
-    </button>
-
-    <button name="reset_button" type="reset" value="Reset">
-        Reset
-    </button>
-
-
-
-=======
->>>>>>> 04f394205046987b316634e1eed02cee3001cf77
     <center>
         <h1>Storing Form data in Database</h1>
 

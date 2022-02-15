@@ -49,18 +49,15 @@
             </p>
 
             <p>
-                <label for="Date">Date:</label>
-                <input type="date" name="date" id="date" required>
+                <label for="time">Time:</label>
+                <input type="datetime-local" name="time" id="time" required>
             </p>
 
             <p>
                 <label for="emailAddress">Email Address:</label>
                 <input type="text" name="email" id="emailAddress" required>
             </p>
-            <p>
-                <label for="time">Time:</label>
-                <input type="datetime-local" name="time" id="time" required>
-            </p>
+            
 
             <input type="submit" value="Submit">
         </form>
@@ -76,21 +73,21 @@
         }
 
         $name =  $_REQUEST['name'];
-        $date = $_REQUEST['date'];
-        $email = $_REQUEST['email'];
         $time = $_REQUEST['time'];
+        $email = $_REQUEST['email'];
+
 
         // Performing insert query execution
         // here our table name is college
-        $sql = "INSERT INTO booking (name, date, email, time)
-                VALUES ('$name','$date','$email', '$time')";
+        $sql = "INSERT INTO booking (name, time, email)
+                VALUES ('$name','$time','$email')";
 
         if (mysqli_query($con, $sql)) {
             echo "<h3>data stored in a database successfully."
                 . " Please browse your localhost php my admin"
                 . " to view the updated data</h3>";
 
-            echo nl2br("\n$name\n$date\n$email\n$time");
+            echo nl2br("\n$name\n$time\n$email");
         } else {
             echo "ERROR: Hush! Sorry $sql. "
                 . mysqli_error($con);

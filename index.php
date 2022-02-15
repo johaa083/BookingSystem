@@ -68,17 +68,17 @@
           
 <p>
             <label for="name">Name:</label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" required>
         </p>
 
 <p>
             <label for="Date">Date:</label>
-            <input type="date" name="date" id="date">
+            <input type="date" name="date" id="date" required>
         </p>
 
 <p>
-            <label for="emailAddress">email Address:</label>
-            <input type="text" name="email" id="emailAddress">
+            <label for="emailAddress">Email Address:</label>
+            <input type="text" name="email" id="emailAddress" required>
         </p>
 
         <input type="submit" value="Submit">

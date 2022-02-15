@@ -36,37 +36,29 @@ CUMSS
 require('database.php');
 
 //Insert values into database
-if (isset($_REQUEST['name'])) {
-    // removes backslashes
-    $username = stripslashes($_REQUEST['name']);
-    //escapes special characters in a string
-    $username = mysqli_real_escape_string($con, $name);
-    $email    = stripslashes($_REQUEST['email']);
-    $email    = mysqli_real_escape_string($con, $email);
-    $create_datetime = date("Y-m-d H:i:s");
-    $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='" . ($email) . "' OR date=(Y-m-d H:i:s)";
-    $result = mysqli_query($con, $query2) or die;
-    function mysql_num_rows(){
-    }  
-    $rows = mysqli_num_rows($result);
-    
-    if ($rows == 0)
-    {
-        $query   = "INSERT into `users` (username, password, email, create_datetime)
-                    VALUES ('$username', '" . md5($password) . "', '$email', '$create_datetime')";
-        $insert = mysqli_query($con, $query);
-        if($insert) 
-        {
-            echo "<div class='form'>
-            <h3>You are registered successfully.</h3><br/>
-            <p class='link'>Click here to <a href='login.php'>Login</a></p>
-            </div>";
-        }
-        
+//if (isset($_REQUEST['name'])) {
+    $name = $_POST['name'];
+    $date = $_POST['date'];
+    $gmail = $_POST['gmail'];
+
+    //add to database
+    $sql = "INSERT INTO bookingsystem (name, date, gmail) 
+            VALUES ('$name', '$date', $gmail)";
+
+
+    //database addition confirmation
+    if(mysqli_query($conn, $sql)){
+    echo "Records inserted successfully.";
+    }   
+    else{
+    echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
     }
- 
-    
-}
+
+
+// Close connection
+$conn->close();
+
+//}
 
 
 ?>

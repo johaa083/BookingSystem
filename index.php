@@ -106,12 +106,12 @@
 
         $name =  $_REQUEST['name'];
         $date = $_REQUEST['date'];
-        $email = $_REQUEST['email'];
+        $gmail = $_REQUEST['gmail'];
           
         // Performing insert query execution
         // here our table name is college
-        $sql = "INSERT INTO bookingsystem 
-                VALUES ('$name','$date','$email')";
+        $sql = "INSERT INTO bookingsystem (name, date, gmail)
+                VALUES ('$name','$date','$gmail')";
           
         if(mysqli_query($con, $sql)){
             echo "<h3>data stored in a database successfully." 

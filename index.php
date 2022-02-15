@@ -97,6 +97,12 @@
     <center>
         <?php
   require('database.php');
+          
+        // Check connection
+        if($con === false){
+            die("ERROR: Could not connect. " 
+                . mysqli_connect_error());
+        }
 
         $name =  $_REQUEST['name'];
         $date = $_REQUEST['date'];
@@ -107,13 +113,16 @@
         $sql = "INSERT INTO bookingsystem 
                 VALUES ('$name','$date','$email')";
           
-        if(mysqli_query($conn, $sql)){
+        if(mysqli_query($con, $sql)){
             echo "<h3>data stored in a database successfully." 
                 . " Please browse your localhost php my admin" 
                 . " to view the updated data</h3>"; 
   
             echo nl2br("\n$name\n$date\n $email");
         } 
+          
+        // Close connection
+        mysqli_close($con);
         ?>
     </center>
 

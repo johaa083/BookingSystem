@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<script src="JavaScript.js"></script>
+
     <h1>Welcome</h1>
     <div class="homeBackground"></div>
 
@@ -35,7 +35,7 @@
 
             <p>
                 <label for="time">Date and Time:</label>
-                <input type="datetime-local" name="time" id="time" required>
+                <input type="datetime-local" name="time" id="time" min="" required>
             </p>
 
             <p>
@@ -83,7 +83,7 @@
         ?>
     </center>
 
-
+    <script src="JavaScript.js"></script>
 </body>
 
 </html>

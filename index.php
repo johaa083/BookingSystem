@@ -112,7 +112,7 @@
     <center>
     <h1>Storing Form data in Database</h1>
 
-    <form action="insert.php" method="post">
+    <form action="index.php" method="post">
           
           
 <p>

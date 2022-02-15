@@ -29,7 +29,6 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url("./IMG/LEWIS.png");
     background-size: cover;
     background-position: top center;
     opacity: 0.3;
@@ -70,6 +69,7 @@
 
 .cardImg {
     grid-area: image;
+    background: url("./IMG/LEWIS.png");
     background-size: cover;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;

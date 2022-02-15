@@ -144,22 +144,21 @@
         }
           
         // Taking all 5 values from the form data(input)
-        $first_name =  $_REQUEST['first_name'];
+        $name =  $_REQUEST['name'];
         $date = $_REQUEST['date'];
         $email = $_REQUEST['email'];
           
         // Performing insert query execution
         // here our table name is college
         $sql = "INSERT INTO bookingsystem 
-                VALUES ('$first_name','$date','$email')";
+                VALUES ('$name','$date','$email')";
           
         if(mysqli_query($conn, $sql)){
             echo "<h3>data stored in a database successfully." 
                 . " Please browse your localhost php my admin" 
                 . " to view the updated data</h3>"; 
   
-            echo nl2br("\n$first_name\n $last_name\n "
-                . "$gender\n $address\n $email");
+            echo nl2br("\n$name\n$date\n $email");
         } else{
             echo "ERROR: Hush! Sorry $sql. " 
                 . mysqli_error($conn);

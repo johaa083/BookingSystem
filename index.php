@@ -108,8 +108,12 @@
                 . " Please browse your localhost php my admin" 
                 . " to view the updated data</h3>"; 
   
-            echo ("\n$name\n$date\n$email");
-        } 
+            echo nl2br("\n$name\n$date\n$email");
+        }
+        else{
+            echo "ERROR: Hush! Sorry $sql. " 
+                . mysqli_error($con);
+        }
           
         // Close connection
         mysqli_close($con);

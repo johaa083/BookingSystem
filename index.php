@@ -27,18 +27,7 @@
     </a>
 
     <div id="opg1">
-        <!--menybar start-->
-        <header>
-            <div class="wrapper">
-                <div class="logo">
-                    <a href="../index.html">
-                        <img src="../PICS/WOLF.png" alt="oppdrag1" height="150px"></a>
-                </div>
-
-            </div>
-        </header>
-        <!--menybar slutt-->
-
+       
         <iframe class="oppdrag1K" src="../nettsider/index.html" width="90%"></iframe>
         <div class="opg1text">
             <h3>ussy</h3>

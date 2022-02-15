@@ -99,3 +99,9 @@
     height: 10%;
     position: absolute;
 }
+
+button {
+    background-color: darkgray;
+    font-size: 18px;
+    font-family: monospace;
+}

@@ -13,9 +13,15 @@
 
 <button name="simple_button" type="button">
 CUMSS
-
 </button>
 
+<button name="submit_button" type="submit" value="Submit">
+    Submit
+</button>
+
+<button name="reset_button" type="reset" value="Reset">
+    Reset
+</button>
 
 <div class="cardMenu">
 <a href="#opg1" class="card">

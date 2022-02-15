@@ -55,8 +55,14 @@ $conn->close();
 
 
 ?>
-        <input type="text" class="login-input" name="name" placeholder="Username" required />
-        <input type="submit" name="submit" value="Register" class="login-button">
+<form class="form" action="" method="post">
+<h1 class="login-title">Registration</h1>
+<input type="text" class="login-input" name="username" placeholder="Username" required />
+<input type="text" class="login-input" name="email" placeholder="Email Adress" required>
+<input type="password" class="login-input" name="password" placeholder="Password" required>
+<input type="submit" name="submit" value="Register" class="login-button">
+<p class="link">Already have an account? <a href="login.php">Login here</a></p>
+</form>
 <?php
 }
 ?>

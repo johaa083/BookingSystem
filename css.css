@@ -86,7 +86,7 @@
     font-family: "Rajdhani", sans-serif;
 }
 
-.button {
+.cardcolor {
     grid-area: color;
     background-color: #222222;
     border-bottom-left-radius: 50;

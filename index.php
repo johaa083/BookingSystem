@@ -88,7 +88,7 @@
 
 <p>
             <label for="emailAddress">Email Address:</label>
-            <input type="text" name="email" id="emailAddress">
+            <input type="text" name="gmail" id="emailAddress">
         </p>
 
         <input type="submit" value="Submit">

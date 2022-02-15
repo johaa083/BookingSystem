@@ -56,17 +56,17 @@
           
 <p>
             <label for="name">Name:</label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" required>
         </p>
 
 <p>
             <label for="Date">Date:</label>
-            <input type="date" name="date" id="date">
+            <input type="date" name="date" id="date" required>
         </p>
 
 <p>
-            <label for="emailAddress">email Address:</label>
-            <input type="text" name="email" id="emailAddress">
+            <label for="emailAddress">Email Address:</label>
+            <input type="text" name="email" id="emailAddress" required>
         </p>
 
         <input type="submit" value="Submit">
@@ -88,7 +88,7 @@
           
         // Performing insert query execution
         // here our table name is college
-        $sql = "INSERT INTO bookingsystem (name, date, email)
+        $sql = "INSERT INTO booking (name, date, email)
                 VALUES ('$name','$date','$email')";
           
         if(mysqli_query($con, $sql)){
@@ -96,8 +96,12 @@
                 . " Please browse your localhost php my admin" 
                 . " to view the updated data</h3>"; 
   
-            echo ("\n$name\n$date\n$email");
-        } 
+            echo nl2br("\n$name\n$date\n$email");
+        }
+        else{
+            echo "ERROR: Hush! Sorry $sql. " 
+                . mysqli_error($con);
+        }
           
         // Close connection
         mysqli_close($con);

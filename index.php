@@ -11,7 +11,7 @@
 
 <body class="bodys1">
     <h1>Welcome</h1>
-    -<div class="homeBackground"></div>
+    <div class="homeBackground"></div>
 
     <button class="button" name="simple_button" type="button">
         CUMSS

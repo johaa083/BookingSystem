@@ -69,46 +69,7 @@
     </button>
 
 
-    <?php
-    //Get access to the database
-    require('database.php');
-
-    //Insert values into database
-    if (isset($_REQUEST['name'])) {
-        $name = $_POST['name'];
-        $date = $_POST['date'];
-        $gmail = $_POST['gmail'];
-
-        //add to database
-        $sql = "INSERT INTO bookingsystem (name, date, gmail) 
-            VALUES ('$name', '$date', $gmail)";
-
-
-        //database addition confirmation
-        if (mysqli_query($conn, $sql)) {
-            echo "Records inserted successfully.";
-        } else {
-            echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
-        }
-
-
-        // Close connection
-        $conn->close();
-
-        //}
-
-
-    ?>
-        <h2>
-            <form class="form" action="" method="post">
-                <h1 class="login-title">Registration</h1>
-                <input type="text" class="login-input" name="name" placeholder="Username" required />
-                <input type="submit" name="submit" value="Register" class="login-button">
-            </form>
-        </h2>
-    <?php
-    }
-    ?>
+    
     <center>
     <h1>Storing Form data in Database</h1>
 

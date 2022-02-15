@@ -118,7 +118,7 @@
                 . " Please browse your localhost php my admin" 
                 . " to view the updated data</h3>"; 
   
-            echo nl2br("\n$name\n$date\n$email");
+            echo ("\n$name\n$date\n$email");
         } 
           
         // Close connection

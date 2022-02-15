@@ -14,15 +14,11 @@
     <h1>Welcome</h1>
     <div class="homeBackground"></div>
 
+    <button>
+        help
+    </button>
     <button onclick="topFunction()" id="myBtn" title="Go Down">Down</button>
-    <a href="#opg1" class="card"></a>
-
-    <div id="opg1">
-
-    </div>
-
-
-    <center>
+ <center>
         <h1>Storing Form data in Database</h1>
 
         <form action="index.php" method="post">
@@ -46,7 +42,8 @@
 
             <input type="submit" value="Submit">
         </form>
-    
+    </center>
+    <center>
         <?php
         require('database.php');
 

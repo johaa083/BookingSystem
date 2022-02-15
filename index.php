@@ -24,28 +24,28 @@
             <p>En mer brukervennlig Kuben nettside for Kuben</p>
         </div>
         <div class="cardcolor"></div>
-      </a>
+    </a>
 
-      <div id="opg1">
-<!--menybar start-->
-<header>
-    <div class="wrapper">
-        <div class="logo">
-            <a href="../index.html">
-            <img src="../PICS/WOLF.png" alt="oppdrag1" height="150px"></a>
+    <div id="opg1">
+        <!--menybar start-->
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../PICS/WOLF.png" alt="oppdrag1" height="150px"></a>
+                </div>
+
+            </div>
+        </header>
+        <!--menybar slutt-->
+
+        <iframe class="oppdrag1K" src="../nettsider/index.html" width="90%"></iframe>
+        <div class="opg1text">
+            <h3>ussy</h3>
+            <p>
+            </p>
         </div>
-       
-  </div>
-  </header>  
-<!--menybar slutt-->
-
-<iframe class="oppdrag1K" src="../nettsider/index.html" width="90%"></iframe>
-<div class="opg1text">
-<h3>ussy</h3>
-<p>
-</p>
-</div>
-</div>
+    </div>
 
 
 
@@ -59,62 +59,66 @@
     </button>
 
 
-    
+
     <center>
-    <h1>Storing Form data in Database</h1>
+        <h1>Storing Form data in Database</h1>
 
-    <form action="index.php" method="post">
-          
-          
-<p>
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" required>
-        </p>
+        <form action="index.php" method="post">
 
-<p>
-            <label for="Date">Date:</label>
-            <input type="date" name="date" id="date" required>
-        </p>
 
-<p>
-            <label for="emailAddress">Email Address:</label>
-            <input type="text" name="email" id="emailAddress" required>
-        </p>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+            </p>
 
-        <input type="submit" value="Submit">
-    </form>
-</center>
+            <p>
+                <label for="Date">Date:</label>
+                <input type="date" name="date" id="date" required>
+            </p>
+
+            <p>
+                <label for="emailAddress">Email Address:</label>
+                <input type="text" name="email" id="emailAddress" required>
+            </p>
+            <p>
+                <label for="time">Time:</label>
+                <input type="datetime" name="time" id="time" required>
+            </p>
+
+            <input type="submit" value="Submit">
+        </form>
+    </center>
     <center>
         <?php
-  require('database.php');
-          
+        require('database.php');
+
         // Check connection
-        if($con === false){
-            die("ERROR: Could not connect. " 
+        if ($con === false) {
+            die("ERROR: Could not connect. "
                 . mysqli_connect_error());
         }
 
         $name =  $_REQUEST['name'];
         $date = $_REQUEST['date'];
         $email = $_REQUEST['email'];
-          
+        $time = $_REQUEST['time'];
+
         // Performing insert query execution
         // here our table name is college
-        $sql = "INSERT INTO booking (name, date, email)
-                VALUES ('$name','$date','$email')";
-          
-        if(mysqli_query($con, $sql)){
-            echo "<h3>data stored in a database successfully." 
-                . " Please browse your localhost php my admin" 
-                . " to view the updated data</h3>"; 
-  
-            echo nl2br("\n$name\n$date\n$email");
-        }
-        else{
-            echo "ERROR: Hush! Sorry $sql. " 
+        $sql = "INSERT INTO booking (name, date, email, time)
+                VALUES ('$name','$date','$email', '$time')";
+
+        if (mysqli_query($con, $sql)) {
+            echo "<h3>data stored in a database successfully."
+                . " Please browse your localhost php my admin"
+                . " to view the updated data</h3>";
+
+            echo nl2br("\n$name\n$date\n$email\n$time");
+        } else {
+            echo "ERROR: Hush! Sorry $sql. "
                 . mysqli_error($con);
         }
-          
+
         // Close connection
         mysqli_close($con);
         ?>

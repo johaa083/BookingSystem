@@ -15,14 +15,19 @@
     <div class="homeBackground"></div>
 
     <section id="sec-1">
- <dov class="container">
-<h1>CUMS</h1>
-<div class="scroll-down">
+    <dov class="container">
+    <h1>CUMS</h1>
+    <div class="scroll-down"></div>
+    </dov>
+   
 
 
+   </section>
+
+   <section class="sec-2">
+<div class="container">
+    <h1>this is sec 2</h1>
 </div>
- </dov>
-
 
    </section>
  <center>

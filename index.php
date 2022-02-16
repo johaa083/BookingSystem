@@ -54,7 +54,7 @@
     <a href="#opg3" class="card">
         <div class="cardImg3"></div>
         <div class="cardText">
-            <h2>IMC group room</h2>
+            <h4>IMC group room</h4>
             <p>The group room next to 2IMC's class rom</p>
         </div>
         <div class="cardcolor"></div>

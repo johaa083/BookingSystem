@@ -10,10 +10,6 @@
 </head>
 
 <body>
-
-    <h1>Welcome</h1>
-    <div class="homeBackground"></div>
-
     <section id="sec-1">
         <dov class="container">
             <h1>CUMS</h1>

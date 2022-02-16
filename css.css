@@ -108,7 +108,7 @@ section {
 
 .cardImg {
     grid-area: image;
-    background: url("../PICS/Oppdrag1.jpg");
+    background: url("./IMG/gaming.jpg");
     background-size: cover;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
@@ -116,7 +116,7 @@ section {
 
 .cardImg2 {
     grid-area: image;
-    background: url("../PICS/Oppdrag2.jpg");
+    background: url("./IMG/IMA.jpg");
     background-size: cover;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
@@ -124,7 +124,7 @@ section {
 
 .cardImg3 {
     grid-area: image;
-    background: url("../PICS/oppdrag3.jpg");
+    background: url("./IMG/IMC.jpg");
     background-size: cover;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
@@ -132,7 +132,7 @@ section {
 
 .cardImg4 {
     grid-area: image;
-    background: url("../PICS/oppdrag4.jpg");
+    background: url("./IMG/secretroom.jpg");
     background-size: cover;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;

@@ -43,17 +43,17 @@
 
             <p>
                 <label for="time">Date:</label>
-                <input type="date" name="time" id="date" min="" required>
+                <input type="date" name="date" id="date" min="" required>
             </p>
 
             <p>
                 <label for="time">Start Time:</label>
-                <input type="time" name="time" id="stime" min="" required>
+                <input type="time" name="stime" id="stime" min="" required>
             </p>
 
             <p>
                 <label for="time">End Time:</label>
-                <input type="time" name="time" id="etime" min="" required>
+                <input type="time" name="etime" id="etime" min="" required>
             </p>
 
             <p>

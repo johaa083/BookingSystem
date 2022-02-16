@@ -41,7 +41,7 @@ section {
 .scroll-down::after {
     content: '';
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 50%;
     border: 2px solid black;
     height: 10px;

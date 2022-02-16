@@ -13,7 +13,9 @@
     <section id="sec-1">
         <dov class="container">
             <h1>CUMS</h1>
+            <a href="#sec-2">
             <div class="scroll-down"></div>
+            </a>
         </dov>
 
 

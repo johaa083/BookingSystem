@@ -2,10 +2,11 @@ html {
     scroll-behavior: smooth;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
 }
 
 section {
-    min-height: 50px;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     align-content: center;

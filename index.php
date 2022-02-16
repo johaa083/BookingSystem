@@ -17,31 +17,6 @@
     <button onclick="topFunction()" id="myBtn" title="Go Down">
         help
     </button>Down</button>
- <center>
-        <h1>Storing Form data in Database</h1>
-
-        <form action="index.php" method="post">
-
-
-            <p>
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="name" required>
-            </p>
-
-            <p>
-                <label for="time">Date and Time:</label>
-                <input type="datetime-local" name="time" id="time" min="" required>
-            </p>
-
-            <p>
-                <label for="emailAddress">Email Address:</label>
-                <input type="text" name="email" id="emailAddress" required>
-            </p>
-            
-
-            <input type="submit" value="Submit">
-        </form>
-    </center>
     <center>
         <?php
         require('database.php');
@@ -77,6 +52,32 @@
         mysqli_close($con);
         ?>
     </center>
+    <center>
+        <h1>Storing Form data in Database</h1>
+
+        <form action="index.php" method="post">
+
+
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+            </p>
+
+            <p>
+                <label for="time">Date and Time:</label>
+                <input type="datetime-local" name="time" id="time" min="" required>
+            </p>
+
+            <p>
+                <label for="emailAddress">Email Address:</label>
+                <input type="text" name="email" id="emailAddress" required>
+            </p>
+            
+
+            <input type="submit" value="Submit">
+        </form>
+    </center>
+    
 
     <script src="JavaScript.js"></script>
 </body>

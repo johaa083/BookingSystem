@@ -73,3 +73,84 @@ section {
         top: 90%;
     }
 }
+
+.cardMenu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5em;
+    margin-left: 55em;
+}
+
+
+/* display grid så vi gjør card1 til et gridsystem. columns for
+  å bestemme bredden av korte og rows for å bestemme høyden for vært område
+  så bilde blir 210px høyt, textområdet blir 210px osv. vi navngir områdene med
+  grid-template-areas */
+
+.card {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "color";
+    background-color: #808080;
+    border-radius: 18px;
+    text-align: center;
+    transition: 0.5s ease;
+    margin: 3em;
+    color: white;
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.cardImg {
+    grid-area: image;
+    background: url("../PICS/Oppdrag1.jpg");
+    background-size: cover;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.cardImg2 {
+    grid-area: image;
+    background: url("../PICS/Oppdrag2.jpg");
+    background-size: cover;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.cardImg3 {
+    grid-area: image;
+    background: url("../PICS/oppdrag3.jpg");
+    background-size: cover;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.cardImg4 {
+    grid-area: image;
+    background: url("../PICS/oppdrag4.jpg");
+    background-size: cover;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.cardText {
+    grid-area: text;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+}
+
+.cardText h2 {
+    font-family: "Rajdhani", sans-serif;
+}
+
+.cardcolor {
+    grid-area: color;
+    background-color: #222222;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}

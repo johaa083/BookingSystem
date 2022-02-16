@@ -50,7 +50,7 @@
             die("ERROR: Could not connect. "
                 . mysqli_connect_error());
         }
-/*
+
         $name =  $_REQUEST['name'];
         $time = $_REQUEST['time'];
         $email = $_REQUEST['email'];
@@ -60,7 +60,7 @@
         // here our table name is college
         $sql = "INSERT INTO booking (name, time, email)
                 VALUES ('$name','$time','$email')";
-*/
+
         if (mysqli_query($con, $sql)) {
             echo "<h3>data stored in a database successfully."
                 . " Please browse your localhost php my admin"

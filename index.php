@@ -13,6 +13,44 @@
     <section id="sec-1">
         <dov class="container">
             <h1>CUMS</h1>
+
+
+            <div class="boxs3t1">
+  <div class="cardMenu">
+
+    <a href="#opg1" class="card">
+        <div class="cardImg"></div>
+        <div class="cardText">
+            <h2>Oppdrag 1</h2>
+            <p>En mer brukervennlig Kuben nettside for Kuben</p>
+        </div>
+        <div class="cardcolor"></div>
+      </a>
+
+    <a href="#opg2" class="card">
+        <div class="cardImg2"></div>
+        <div class="cardText">
+            <h2>Oppdrag 2</h2>
+            <p>A Design Manual for Snurr danseskole AS</p>
+        </div>
+        <div class="cardcolor"></div>
+      </a>
+
+    <a href="#opg3" class="card">
+        <div class="cardImg3"></div>
+        <div class="cardText">
+            <h2>Oppdrag 3</h2>
+            <p>En virtuell PC med Windows</p>
+        </div>
+        <div class="cardcolor"></div>
+      </a>
+
+
+</div>
+</div>
+
+
+
             <a href="#sec-2">
             <div class="scroll-down"></div>
             </a>
@@ -24,7 +62,6 @@
 
     <section id="sec-2">
         <div class="container">
-            <h1>this is sec 2</h1>
         </div>
         <center>
         <h1>Storing Form data in Database</h1>

@@ -71,18 +71,22 @@
         $time = $_REQUEST['time'];
         $email = $_REQUEST['email'];
 
+        $rows = mysqli_num_rows($result);
+
         if ($rows === 0) {
-        // Performing insert query execution
-        // here our table name is college
-        $sql = "INSERT INTO booking (name, time, email)
-                VALUES ('$name','$time','$email')";
+            // Performing insert query execution
+            // here our table name is college
+            $sql = "INSERT INTO booking (name, time, email)
+                    VALUES ('$name','$time','$email')";
 
-        if (mysqli_query($con, $sql)) {
-            echo "<h3>data stored in a database successfully."
-                . " Please browse your localhost php my admin"
-                . " to view the updated data</h3>";
+            $insert = mysqli_query($con, $sql);
+            if ($insert)
+            {
+                    echo "<h3>data stored in a database successfully."
+                    . " Please browse your localhost php my admin"
+                    . " to view the updated data</h3>";
 
-            echo nl2br("\n$name\n$time\n$email");
+                echo nl2br("\n$name\n$time\n$email");
         } 
     }
         else {

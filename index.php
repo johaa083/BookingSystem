@@ -37,7 +37,7 @@
         <div class="cardImg"></div>
         <div class="cardText">
             <h2>Gaming chairs</h2>
-            <p>Book the gaming chairs in the community area</p>
+            <p>The gaming chairs in the community area</p>
         </div>
         <div class="cardcolor"></div>
       </a>

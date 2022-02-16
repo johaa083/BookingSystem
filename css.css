@@ -20,11 +20,11 @@ section {
 }
 
 #sec-1 {
-    background-color: aqua;
+    background-color: gray;
 }
 
 #sec-2 {
-    background-color: blueviolet;
+    background-color: lightgray;
 }
 
 .scroll-down {

@@ -50,6 +50,8 @@
             die("ERROR: Could not connect. "
                 . mysqli_connect_error());
         }
+if ($rows === 0) {
+
 
         $name =  $_REQUEST['name'];
         $time = $_REQUEST['time'];
@@ -67,10 +69,13 @@
                 . " to view the updated data</h3>";
 
             echo nl2br("\n$name\n$time\n$email");
-        } else {
+        } 
+    }
+        else {
             echo "ERROR: Hush! Sorry $sql. "
                 . mysqli_error($con);
         }
+
 
         // Close connection
         mysqli_close($con);

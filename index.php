@@ -62,8 +62,8 @@
         // Check connection
         if (isset($_REQUEST['name'])) {
             $name =  $_REQUEST['name'];
-        $time = $_REQUEST['time'];
-        $email = $_REQUEST['email'];
+            $time = $_REQUEST['time'];
+            $email = $_REQUEST['email'];
         
         $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='" . ($email) . "' OR time='$time'";
         $result = mysqli_query($con, $query2) or die;
@@ -95,11 +95,11 @@
                 . mysqli_error($con);
         }
     
-
+    }
         // Close connection
         mysqli_close($con);
         ?>
-        }
+        
     </center>
 
     <script src="JavaScript.js"></script>

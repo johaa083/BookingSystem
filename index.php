@@ -64,6 +64,8 @@
             die("ERROR: Could not connect. "
                 . mysqli_connect_error());
         }
+        $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='" . ($email) . "' OR time='$time'";
+        $result = mysqli_query($con, $query2) or die;
 
 
 

@@ -90,7 +90,7 @@ section {
 .card {
     display: grid;
     grid-template-columns: 400px;
-    grid-template-rows: 310px 210px 80px;
+    grid-template-rows: 210px 510px 80px;
     grid-template-areas: "image" "text" "color";
     background-color: #808080;
     border-radius: 18px;

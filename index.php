@@ -51,7 +51,7 @@
                 . mysqli_connect_error());
         }
 
-        $name =  $_REQUEST['name'];
+        //$name =  $_REQUEST['name'];
         $time = $_REQUEST['time'];
         $email = $_REQUEST['email'];
 

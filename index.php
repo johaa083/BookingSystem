@@ -36,7 +36,7 @@
     <a href="#opg1" class="card">
         <div class="cardImg"></div>
         <div class="cardText">
-            <h2>Gaming chairs</h2>
+            <h4>Gaming chairs</h4>
             <p>The gaming chairs in the community area</p>
         </div>
         <div class="cardcolor"></div>
@@ -45,7 +45,7 @@
     <a href="#opg2" class="card">
         <div class="cardImg2"></div>
         <div class="cardText">
-            <h2>IMA group room</h2>
+            <h4>IMA group room</h4>
             <p>The group room next to 2IMA's class rom</p>
         </div>
         <div class="cardcolor"></div>
@@ -63,7 +63,7 @@
       <a href="#opg4" class="card">
         <div class="cardImg4"></div>
         <div class="cardText">
-            <h2>studio room</h2>
+            <h4>studio room</h4>
             <p>The studio outside</p>
         </div>
         <div class="cardcolor"></div>

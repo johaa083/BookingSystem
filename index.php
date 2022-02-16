@@ -26,9 +26,7 @@
         <div class="container">
             <h1>this is sec 2</h1>
         </div>
-
-    </section>
-    <center>
+        <center>
         <h1>Storing Form data in Database</h1>
 
         <form action="index.php" method="post">
@@ -63,6 +61,9 @@
             <input type="submit" value="Submit">
         </form>
     </center>
+
+    </section>
+   
     <center>
         <?php
         require('database.php');

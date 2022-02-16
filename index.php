@@ -50,11 +50,13 @@
                 . mysqli_connect_error());
         }
 
+
+
         $name =  $_REQUEST['name'];
         $time = $_REQUEST['time'];
         $email = $_REQUEST['email'];
 
-
+        if ($rows === 0) {
         // Performing insert query execution
         // here our table name is college
         $sql = "INSERT INTO booking (name, time, email)
@@ -66,10 +68,13 @@
                 . " to view the updated data</h3>";
 
             echo nl2br("\n$name\n$time\n$email");
-        } else {
+        } 
+    }
+        else {
             echo "ERROR: Hush! Sorry $sql. "
                 . mysqli_error($con);
         }
+
 
         // Close connection
         mysqli_close($con);

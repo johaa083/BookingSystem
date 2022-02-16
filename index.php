@@ -50,14 +50,14 @@
             die("ERROR: Could not connect. "
                 . mysqli_connect_error());
         }
-if ($rows === 0) {
+
 
 
         $name =  $_REQUEST['name'];
         $time = $_REQUEST['time'];
         $email = $_REQUEST['email'];
 
-
+        if ($rows === 0) {
         // Performing insert query execution
         // here our table name is college
         $sql = "INSERT INTO booking (name, time, email)

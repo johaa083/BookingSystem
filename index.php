@@ -58,7 +58,7 @@
 
             <p>
                 <label for="emailAddress">Email Address:</label>
-                <input type="text" name="email" id="emailAddress" required>
+                <input type="email" name="email" id="emailAddress" required>
             </p>
 
 

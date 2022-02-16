@@ -15,8 +15,7 @@
     <div class="homeBackground"></div>
 
     <button onclick="topFunction()" id="myBtn" title="Go Down">
-        help
-    </button>Down</button>
+        help </button>
  <center>
         <h1>Storing Form data in Database</h1>
 

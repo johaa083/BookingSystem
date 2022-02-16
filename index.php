@@ -91,7 +91,7 @@
         } 
     }
         else {
-            echo "ERROR: Hush! Sorry $sql. "
+            echo "Sorry, there is already a reservation on that time. "
                 . mysqli_error($con);
         }
     

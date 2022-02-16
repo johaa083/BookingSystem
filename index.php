@@ -14,8 +14,23 @@
         <dov class="container">
             <h1>CUMS</h1>
 
+            <a href="#sec-2">
+            <div class="scroll-down"></div>
+            </a>
+        </dov>
 
-            <div class="boxs3t1">
+
+
+    </section>
+
+    <section id="sec-2">
+        <div class="container">
+        </div>
+        <center>
+        <h1>Storing Form data in Database</h1>
+
+
+        <div class="boxs3t1">
   <div class="cardMenu">
 
     <a href="#opg1" class="card">
@@ -51,20 +66,15 @@
 
 
 
-            <a href="#sec-2">
-            <div class="scroll-down"></div>
-            </a>
-        </dov>
 
 
 
-    </section>
 
-    <section id="sec-2">
-        <div class="container">
-        </div>
-        <center>
-        <h1>Storing Form data in Database</h1>
+
+
+
+
+
 
         <form action="index.php" method="post">
 

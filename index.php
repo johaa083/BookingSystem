@@ -42,8 +42,18 @@
             </p>
 
             <p>
-                <label for="time">Date and Time:</label>
-                <input type="datetime-local" name="time" id="time" min="" required>
+                <label for="time">Date:</label>
+                <input type="date" name="date" id="date" min="" required>
+            </p>
+
+            <p>
+                <label for="time">Start Time:</label>
+                <input type="time" name="stime" id="stime" min="" required>
+            </p>
+
+            <p>
+                <label for="time">End Time:</label>
+                <input type="time" name="etime" id="etime" min="" required>
             </p>
 
             <p>
@@ -62,10 +72,12 @@
         // Check connection
         if (isset($_REQUEST['name'])) {
             $name =  $_REQUEST['name'];
-            $time = $_REQUEST['time'];
             $email = $_REQUEST['email'];
+            $date = $_REQUEST['date'];
+            $stime = $_REQUEST['stime'];
+            $etime = $_REQUEST['etime'];
 
-            $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='" . ($email) . "' OR time='$time'";
+            $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='" . ($email) . "' OR stime='$stime' OR etime='$etime'";
             $result = mysqli_query($con, $query2) or die;
 
 
@@ -77,8 +89,8 @@
             if ($rows === 0) {
                 // Performing insert query execution
                 // here our table name is college
-                $sql = "INSERT INTO booking (name, time, email)
-                    VALUES ('$name','$time','$email')";
+                $sql = "INSERT INTO booking (name, email, date, stime, etime)
+                    VALUES ('$name','$email', '$date','$stime',$etime,)";
 
                 $insert = mysqli_query($con, $sql);
                 if ($insert) {
@@ -86,7 +98,7 @@
                         . " Please browse your localhost php my admin"
                         . " to view the updated data</h3>";
 
-                    echo nl2br("\n$name\n$time\n$email");
+                    echo nl2br("\n$name\n$email\n$date\n$stime\n$etime");
                 }
             } else {
                 echo "Sorry, there is already a reservation on that time. "

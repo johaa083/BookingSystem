@@ -14,22 +14,15 @@
     <h1>Welcome</h1>
     <div class="homeBackground"></div>
 
-    <section id="sec-1">
-    <dov class="container">
-    <h1>CUMS</h1>
-    <div class="scroll-down"></div>
-    </dov>
-   
-
+   <section id="sec-1">
+<dov class="container">
+<h1>Hello Cum</h1>
+<div class="scroll-down"></div>
+</dov>
 
    </section>
 
-   <section class="sec-2">
-<div class="container">
-    <h1>this is sec 2</h1>
-</div>
-
-   </section>
+   <section></section>
  <center>
         <h1>Storing Form data in Database</h1>
 

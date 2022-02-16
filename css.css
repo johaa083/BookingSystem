@@ -37,12 +37,37 @@ section {
     cursor: pointer;
 }
 
-.scroll-down::before .scroll-down::after {
+.scroll-down::before,
+.scroll-down::after {
     content: '';
     position: absolute;
     top: 20%;
     left: 50%;
     border: 20px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
 }
 
-#time {}
+.scroll-down::after {
+    top: 30%;
+}
+
+@keyframes scroll-down {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        top: 90%;
+    }
+}

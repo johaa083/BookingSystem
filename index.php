@@ -29,15 +29,14 @@
         <center>
         <h1>Storing Form data in Database</h1>
 
-
         <div class="boxs3t1">
   <div class="cardMenu">
 
     <a href="#opg1" class="card">
         <div class="cardImg"></div>
         <div class="cardText">
-            <h4>Gaming chairs</h4>
-            <p>The gaming chairs in the community area</p>
+            <h2>Oppdrag 1</h2>
+            <p>En mer brukervennlig Kuben nettside for Kuben</p>
         </div>
         <div class="cardcolor"></div>
       </a>
@@ -45,43 +44,37 @@
     <a href="#opg2" class="card">
         <div class="cardImg2"></div>
         <div class="cardText">
-            <h4>IMA group room</h4>
-            <p>The group room next to 2IMA's class rom</p>
-        </div>
-        <div class="cardcolor"></div>
-      </a>
-
-    <a href="#opg3" class="card">
-        <div class="cardImg3"></div>
-        <div class="cardText">
-            <h4>IMC group room</h4>
-            <p>The group room next to 2IMC's class rom</p>
-        </div>
-        <div class="cardcolor"></div>
-      </a>
-
-      <a href="#opg4" class="card">
-        <div class="cardImg4"></div>
-        <div class="cardText">
-            <h4>studio room</h4>
-            <p>The studio outside</p>
+            <h2>Oppdrag 2</h2>
+            <p>A Design Manual for Snurr danseskole AS</p>
         </div>
         <div class="cardcolor"></div>
       </a>
 
 </div>
+
+
+<div class="boxs3t2">
+  <div class="cardMenu">
+  <a href="#opg3" class="card">
+    <div class="cardImg3"></div>
+    <div class="cardText">
+        <h2>Oppdrag 4</h2>
+        <p>Hosting av hjemmeside</p>
+    </div>
+    <div class="cardcolor"></div>
+  </a>
+
+
+  <a href="#opg4" class="card">
+    <div class="cardImg4"></div>
+    <div class="cardText">
+        <h2>Oppdrag 6</h2>
+        <p>Karakterkalkulator</p>
+    </div>
+    <div class="cardcolor"></div>
+  </a>
 </div>
-
-
-
-
-
-
-
-
-
-
-
+</div>
 
 
         <form action="index.php" method="post">

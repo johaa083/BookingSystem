@@ -60,9 +60,7 @@
         require('database.php');
 
         // Check connection
-        if ($con === false) {
-            die("ERROR: Could not connect. "
-                . mysqli_connect_error());
+        if (isset($_REQUEST['username'])) {
         }
         $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='" . ($email) . "' OR time='$time'";
         $result = mysqli_query($con, $query2) or die;
@@ -95,7 +93,7 @@
             echo "ERROR: Hush! Sorry $sql. "
                 . mysqli_error($con);
         }
-
+    
 
         // Close connection
         mysqli_close($con);

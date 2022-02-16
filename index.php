@@ -63,8 +63,8 @@
       <a href="#opg4" class="card">
         <div class="cardImg4"></div>
         <div class="cardText">
-            <h2>IMC group room</h2>
-            <p>The group room next to 2IMC's class rom</p>
+            <h2>studio room</h2>
+            <p>The studio outside</p>
         </div>
         <div class="cardcolor"></div>
       </a>

@@ -143,7 +143,7 @@
             $stime = stripslashes($_REQUEST['stime']);
             $etime = stripslashes($_REQUEST['etime']);
 
-            $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='" . ($email) . "' OR stime='$stime' OR etime='$etime'";
+            $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='($email)' OR stime='$stime' OR etime='$etime'";
             $result = mysqli_query($con, $query2) or die;
 
 

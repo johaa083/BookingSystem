@@ -16,8 +16,6 @@
             <h1>Welcome to Kuben Booking. <br>
         Down below you can see an overview of which areas you can book.</h1>
         </center>
-        
-     <button type="submit">Send</button>
 </form>
       
             <a href="#sec-2">

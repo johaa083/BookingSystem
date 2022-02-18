@@ -12,7 +12,8 @@
 <body>
 <section id="sec-1">
         <dov class="container">
-            <h1>Welcome</h1>
+            <h1>Welcome to Kuben Booking. <br>
+        Down below you can see an overview of which areas you can book.</h1>
 
       
             <a href="#sec-2">

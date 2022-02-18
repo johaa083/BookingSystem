@@ -83,7 +83,7 @@
         <div class="content">
             <div class="close-btn" onclick="togglePopup()">&times;</div>
             <h1>Booking</h1>
-            <form action="index.php" method="post" action="https://formsubmit.co/your@email.com" method="POST">
+            <form action="index.php" method="post" action="https://formsubmit.co/danielnilsenm@email.com" method="POST">
 
 
             <p>

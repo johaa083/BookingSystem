@@ -133,7 +133,7 @@
           }
 
         // Check connection
-        if (isset($_REQUEST['name'])) {
+        if (isset($_POST['name'])) {
             $name =  stripslashes($_REQUEST['name']);
             $email = stripslashes($_REQUEST['email']);
             $date = stripslashes($_REQUEST['date']);

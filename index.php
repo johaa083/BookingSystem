@@ -81,7 +81,7 @@
         <div class="overlay"></div>
         <div class="content">
             <div class="close-btn" onclick="togglePopup()">&times;</div>
-            <h1>Title</h1>
+            <h1>Booking</h1>
             <form action="index.php" method="post">
 
 

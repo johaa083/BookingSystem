@@ -84,7 +84,7 @@
         <div class="content">
             <div class="close-btn" onclick="togglePopup()">&times;</div>
             <h1>Booking</h1>
-            <form action="https://formsubmit.co/danielmydlandn@gmail.com" method="POST">
+            <form action="https://formsubmit.co/b2335d7ca3183311ae8767e11bd514a4" method="POST">
 
 
             <p>

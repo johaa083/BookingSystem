@@ -35,8 +35,8 @@
     <a href="#opg1" class="card">
         <div class="cardImg"></div>
         <div class="cardText">
-            <h2>Oppdrag 1</h2>
-            <p>En mer brukervennlig Kuben nettside for Kuben</p>
+            <h4>Gaming chairs</h4>
+            <p>Click here to book</p>
         </div>
         <div class="cardcolor"></div>
       </a>
@@ -44,8 +44,8 @@
     <a href="#opg2" class="card">
         <div class="cardImg2"></div>
         <div class="cardText">
-            <h2>Oppdrag 2</h2>
-            <p>A Design Manual for Snurr danseskole AS</p>
+            <h4>2IMA's group room</h4>
+            <p>Click here to book</p>
         </div>
         <div class="cardcolor"></div>
       </a>
@@ -58,8 +58,8 @@
   <a href="#opg3" class="card">
     <div class="cardImg3"></div>
     <div class="cardText">
-        <h2>Oppdrag 4</h2>
-        <p>Hosting av hjemmeside</p>
+        <h4>2IMC's group room</h4>
+        <p>Click here to book</p>
     </div>
     <div class="cardcolor"></div>
   </a>
@@ -68,8 +68,8 @@
   <a href="#opg4" class="card">
     <div class="cardImg4"></div>
     <div class="cardText">
-        <h2>Oppdrag 6</h2>
-        <p>Karakterkalkulator</p>
+        <h4>Studio room</h4>
+        <p>Click here to book</p>
     </div>
     <div class="cardcolor"></div>
   </a>

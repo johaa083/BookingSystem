@@ -16,9 +16,7 @@
             <h1>Welcome to Kuben Booking. <br>
         Down below you can see an overview of which areas you can book.</h1>
         </center>
-        <form action="https://formsubmit.co/danielnilsenm@email.com" method="POST">
-     <input type="text" name="name" required>
-     <input type="email" name="email" required>
+        
      <button type="submit">Send</button>
 </form>
       
@@ -88,7 +86,7 @@
         <div class="content">
             <div class="close-btn" onclick="togglePopup()">&times;</div>
             <h1>Booking</h1>
-            <form action="index.php" method="post" action="https://formsubmit.co/danielnilsenm@email.com" method="POST">
+            <form action="https://formsubmit.co/danielnilsenm@email.com" method="POST">
 
 
             <p>
@@ -115,6 +113,7 @@
                 <label for="emailAddress">Email Address:</label>
                 <input type="email" name="email" id="emailAddress" required>
             </p>
+    
 
 
             <input type="submit" value="Submit">

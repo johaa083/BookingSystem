@@ -30,7 +30,6 @@
         <div class="container">
         </div>
         <center>
-        <h1>Storing Form data in Database</h1>
 
         <div class="boxs3t1">
   <div class="cardMenu">

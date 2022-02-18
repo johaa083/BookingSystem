@@ -149,9 +149,7 @@
 
                 $insert = mysqli_query($con, $sql);
                 if ($insert) {
-                    echo "<h3>data stored in a database successfully."
-                        . " Please browse your localhost php my admin"
-                        . " to view the updated data</h3>";
+                    echo "<h3>Reservation sent</h3>";
 
                     print_r($_POST);
                 }

@@ -33,8 +33,7 @@
         <div class="boxs3t1">
   <div class="cardMenu">
 
-    <a href="#popup-1" class="card">
-    <a href="#popup-1" class="card">
+    <a href="#sec-1" class="card">
         <div class="cardImg"></div>
         <div class="cardText">
             <h4>Gaming chairs</h4>

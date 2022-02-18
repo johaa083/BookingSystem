@@ -10,10 +10,11 @@
 </head>
 
 <body>
-    <section id="sec-1">
+<section id="sec-1">
         <dov class="container">
-            <h1>CUMS</h1>
+            <h1>Welcome</h1>
 
+      
             <a href="#sec-2">
             <div class="scroll-down"></div>
             </a>
@@ -32,7 +33,7 @@
         <div class="boxs3t1">
   <div class="cardMenu">
 
-    <a href="#opg1" class="card">
+    <a href="#popup-1" class="card">
         <div class="cardImg"></div>
         <div class="cardText">
             <h4>Gaming chairs</h4>
@@ -41,7 +42,7 @@
         <div class="cardcolor"></div>
       </a>
 
-    <a href="#opg2" class="card">
+    <a href="#popup-1" class="card">
         <div class="cardImg2"></div>
         <div class="cardText">
             <h4>2IMA's group room</h4>
@@ -55,7 +56,7 @@
 
 <div class="boxs3t2">
   <div class="cardMenu">
-  <a href="#opg3" class="card">
+  <a href="#popup-1" class="card">
     <div class="cardImg3"></div>
     <div class="cardText">
         <h4>2IMC's group room</h4>
@@ -65,7 +66,7 @@
   </a>
 
 
-  <a href="#opg4" class="card">
+  <a href="#popup-1" class="card">
     <div class="cardImg4"></div>
     <div class="cardText">
         <h4>Studio room</h4>
@@ -76,8 +77,12 @@
 </div>
 </div>
 
-
-        <form action="index.php" method="post">
+<div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h1>Title</h1>
+            <form action="index.php" method="post">
 
 
             <p>
@@ -108,10 +113,12 @@
 
             <input type="submit" value="Submit">
         </form>
-    </center>
+        </div>
+    </div>
 
-    </section>
-   
+    <button onclick="togglePopup()">Show popup</button>
+      
+
     <center>
         <?php
         require('database.php');

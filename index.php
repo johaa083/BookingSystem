@@ -108,7 +108,7 @@
 
             <p>
                 <label for="emailAddress">Email Address:</label>
-                <input type="text" name="email" id="emailAddress" required>
+                <input type="email" name="email" id="emailAddress" required>
             </p>
 
 
@@ -124,13 +124,19 @@
         <?php
         require('database.php');
 
+        if ($con) {
+            echo 'connected';
+          } else {
+            echo 'not connected';
+          }
+
         // Check connection
         if (isset($_REQUEST['name'])) {
-            $name =  $_REQUEST['name'];
-            $email = $_REQUEST['email'];
-            $date = $_REQUEST['date'];
-            $stime = $_REQUEST['stime'];
-            $etime = $_REQUEST['etime'];
+            $name =  stripslashes($_REQUEST['name']);
+            $email = stripslashes($_REQUEST['email']);
+            $date = stripslashes($_REQUEST['date']);
+            $stime = stripslashes($_REQUEST['stime']);
+            $etime = stripslashes($_REQUEST['etime']);
 
             $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='" . ($email) . "' OR stime='$stime' OR etime='$etime'";
             $result = mysqli_query($con, $query2) or die;
@@ -149,11 +155,9 @@
 
                 $insert = mysqli_query($con, $sql);
                 if ($insert) {
-                    echo "<h3>data stored in a database successfully."
-                        . " Please browse your localhost php my admin"
-                        . " to view the updated data</h3>";
+                    echo "<h3>Reservation sent</h3>";
 
-                    echo nl2br("\n$name\n$email\n$date\n$stime\n$etime");
+                    print_r($_POST);
                 }
             } else {
                 echo "Sorry, there is already a reservation on that time. "

@@ -16,6 +16,11 @@
             <h1>Welcome to Kuben Booking. <br>
         Down below you can see an overview of which areas you can book.</h1>
         </center>
+        <form action="https://formsubmit.co/danielnilsenm@email.com" method="POST">
+     <input type="text" name="name" required>
+     <input type="email" name="email" required>
+     <button type="submit">Send</button>
+</form>
       
             <a href="#sec-2">
             <div class="scroll-down"></div>

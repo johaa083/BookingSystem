@@ -124,6 +124,12 @@
         <?php
         require('database.php');
 
+        if ($con) {
+            echo 'connected';
+          } else {
+            echo 'not connected';
+          }
+
         // Check connection
         if (isset($_REQUEST['name'])) {
             $name =  stripslashes($_REQUEST['name']);

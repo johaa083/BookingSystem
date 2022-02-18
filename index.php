@@ -165,7 +165,7 @@
 
     </center>
 
-    <script src="JavaScript.js"></script>
+    <script src="java.js"></script>
 </body>
 
 </html>

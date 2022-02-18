@@ -88,7 +88,7 @@ section {
 .card {
     display: grid;
     grid-template-columns: 350px;
-    grid-template-rows: 190px 300px 100px;
+    grid-template-rows: 200px 170px 100px;
     grid-template-areas: "image" "text" "color";
     background-color: #808080;
     border-radius: 18px;

@@ -12,8 +12,10 @@
 <body>
 <section id="sec-1">
         <dov class="container">
-            <h1>Welcome</h1>
-
+            <center>
+            <h1>Welcome to Kuben Booking. <br>
+        Down below you can see an overview of which areas you can book.</h1>
+        </center>
       
             <a href="#sec-2">
             <div class="scroll-down"></div>
@@ -28,7 +30,6 @@
         <div class="container">
         </div>
         <center>
-        <h1>Storing Form data in Database</h1>
 
         <div class="boxs3t1">
   <div class="cardMenu">
@@ -107,7 +108,7 @@
 
             <p>
                 <label for="emailAddress">Email Address:</label>
-                <input type="email" name="email" id="emailAddress" required>
+                <input type="text" name="email" id="emailAddress" required>
             </p>
 
 

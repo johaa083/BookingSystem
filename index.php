@@ -66,7 +66,7 @@
   </a>
 
 
-  <a href="#popup-1" class="card">
+  <a href=".popup-1" class="card">
     <div class="cardImg4"></div>
     <div class="cardText">
         <h4>Studio room</h4>

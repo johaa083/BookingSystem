@@ -34,6 +34,7 @@
   <div class="cardMenu">
 
     <a href="#popup-1" class="card">
+    <a href="#popup-1" class="card">
         <div class="cardImg"></div>
         <div class="cardText">
             <h4>Gaming chairs</h4>
@@ -66,7 +67,7 @@
   </a>
 
 
-  <a href=".popup-1" class="card">
+  <a href="#popup-1" class="card">
     <div class="cardImg4"></div>
     <div class="cardText">
         <h4>Studio room</h4>

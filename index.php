@@ -66,7 +66,7 @@
   </a>
 
 
-  <a href="#popup-1" class="card">
+  <a href="#popup-btn" class="card">
     <div class="cardImg4"></div>
     <div class="cardText">
         <h4>Studio room</h4>
@@ -80,7 +80,7 @@
 <div class="popup" id="popup-1">
         <div class="overlay"></div>
         <div class="content">
-            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <div id="popup-btn" class="close-btn" onclick="togglePopup()">&times;</div>
             <h1>Booking</h1>
             <form action="index.php" method="post">
 

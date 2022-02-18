@@ -162,6 +162,7 @@ section {
     background: black solid;
     z-index: 1;
     display: none;
+    border-radius: 18px;
 }
 
 .popup .content {
@@ -176,6 +177,7 @@ section {
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
+    border-radius: 18px;
 }
 
 .popup .close-btn {

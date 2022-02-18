@@ -61,12 +61,58 @@
     <div class="cardText">
         <h4>2IMC's group room</h4>
         <p>Click here to book</p>
+
+        <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h1>Booking</h1>
+            <form action="index.php" method="post">
+
+
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+            </p>
+
+            <p>
+                <label for="time">Date:</label>
+                <input type="date" name="date" id="date" min="" required>
+            </p>
+
+            <p>
+                <label for="time">Start Time:</label>
+                <input type="time" name="stime" id="stime" min="" required>
+            </p>
+
+            <p>
+                <label for="time">End Time:</label>
+                <input type="time" name="etime" id="etime" min="" required>
+            </p>
+
+            <p>
+                <label for="emailAddress">Email Address:</label>
+                <input type="email" name="email" id="emailAddress" required>
+            </p>
+
+
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+    </div>
+
+    <button onclick="togglePopup()">Show popup</button>
+      
+
+
+
+
     </div>
     <div class="cardcolor"></div>
   </a>
 
 
-  <a href="#popup-btn" class="card">
+  <a href="#popup-1" class="card">
     <div class="cardImg4"></div>
     <div class="cardText">
         <h4>Studio room</h4>
@@ -80,7 +126,7 @@
 <div class="popup" id="popup-1">
         <div class="overlay"></div>
         <div class="content">
-            <div id="popup-btn" class="close-btn" onclick="togglePopup()">&times;</div>
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
             <h1>Booking</h1>
             <form action="index.php" method="post">
 

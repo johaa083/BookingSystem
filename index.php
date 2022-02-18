@@ -126,11 +126,11 @@
 
         // Check connection
         if (isset($_REQUEST['name'])) {
-            $name =  $_REQUEST['name'];
-            $email = $_REQUEST['email'];
-            $date = $_REQUEST['date'];
-            $stime = $_REQUEST['stime'];
-            $etime = $_REQUEST['etime'];
+            $name =  stripslashes($_REQUEST['name']);
+            $email = stripslashes($_REQUEST['email']);
+            $date = stripslashes($_REQUEST['date']);
+            $stime = stripslashes($_REQUEST['stime']);
+            $etime = stripslashes($_REQUEST['etime']);
 
             $query2   = "SELECT * FROM `booking` WHERE name='$name' OR email='" . ($email) . "' OR stime='$stime' OR etime='$etime'";
             $result = mysqli_query($con, $query2) or die;

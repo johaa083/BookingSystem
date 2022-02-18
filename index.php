@@ -153,7 +153,7 @@
                         . " Please browse your localhost php my admin"
                         . " to view the updated data</h3>";
 
-                    echo nl2br("\n$name\n$email\n$date\n$stime\n$etime");
+                    print_r($_POST);
                 }
             } else {
                 echo "Sorry, there is already a reservation on that time. "
